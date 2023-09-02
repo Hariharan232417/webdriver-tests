@@ -6,13 +6,13 @@ import org.testng.annotations.Test;
 import com.framework.testng.api.base.ProjectHooks;
 import com.leaftaps.pages.LoginPage;
 
-public class TC002_JustLogin extends ProjectHooks{
+public class TC003_JustLogin3 extends ProjectHooks{
 	@BeforeTest
 	public void setValues() {
 		testcaseName = "Login";
 		testDescription ="Login to Leaftaps";
-		authors="Hari";
-		category ="Smoke";
+		authors="Hariharan";
+		category ="Regression";
 		excelFileName="Login";
 	}
 	
